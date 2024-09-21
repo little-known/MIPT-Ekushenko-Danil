@@ -1,0 +1,45 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="list.*" />
+          <option value="str.get_name" />
+          <option value="str.get_clients" />
+          <option value="str.delete_client" />
+          <option value="str.get_username" />
+          <option value="Others.main.WidgetsHideNSeek.*" />
+          <option value="Others.main.MorseCode.text" />
+          <option value="Others.main.MyWidget.Button" />
+          <option value="Others.main.MyWidget.*" />
+          <option value="PyQt5.uic" />
+          <option value="Workspace.Main.main.Calculator.*" />
+          <option value="Workspace.Main.main.MyPillow.*" />
+          <option value="Workspace.Main.main.InteractiveReceipt.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
