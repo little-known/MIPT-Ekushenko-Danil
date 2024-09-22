@@ -1,0 +1,14 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  print_date:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks-out repository under $GITHUB_WORKSPACE, so that job can access it
+      - uses: actions/checkout@v4
+
+      # Runs a single command using the runners shell
+      - name: Print date
+        run: date +"%d.%m.%Y"
